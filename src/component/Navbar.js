@@ -13,7 +13,7 @@ const Navbar = () => {
                         <li className='list-item'><a href='#' className='list-link'>featured arts</a></li>
                         <li className='list-item'><a href='#' className='list-link'>contact us</a></li>
                     </ul>
-                    <Button text= 'sign up'/>
+                    <Button text= 'sign up' color= "#e5145b" border= "transparent"/>
                 </nav>
             </div>
         </header>

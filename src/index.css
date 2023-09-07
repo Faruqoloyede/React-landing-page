@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/amsterdam-2');
 :root {
   --pink: #e5145b;
   --nav-color: #4a486713;
@@ -33,10 +34,15 @@ img {
   width: 100%;
 }
 
-/* .grid {
+.grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-} */
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
 
 .container {
   padding: 20px 40px;
@@ -77,8 +83,7 @@ img {
 }
 
 .btn {
-  background-color: #e5145b;
-  border: none;
+
   outline: none;
   padding: 20px;
   color: #ffffff;
@@ -92,4 +97,43 @@ img {
 .btn:hover {
   background: transparent;
   border: 2px solid var(--pink);
+}
+
+.hero {
+  margin-top: 60px;
+  background: url('./img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero h2 {
+  color: var(--pink);
+  font-size: 18px;
+}
+
+.hero_content h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero_content h1 .pink {
+  color: var(--pink);
+}
+
+.hero_content h1 small {
+  font-size: 30px;
+}
+
+.hero_content h1 .curve {
+  font-family: 'Amsterdam', sans-serif;
+  font-size: 25px;
+}
+
+.hero_content p {
+  color: var(--gray);
+  margin-bottom: 20px;
 }
