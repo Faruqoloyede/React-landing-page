@@ -2,6 +2,9 @@ import Button from './Button';
 import s1 from '../img/s1.jpg';
 import s2 from '../img/s2.jpg';
 import s3 from '../img/s3.jpg';
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { FaAccessibleIcon } from "react-icons/fa";
+import { FaHandshakeAltSlash } from "react-icons/fa";
 const Explore = () => {
     return (
         <section className="explore" id='explore'>
@@ -13,7 +16,7 @@ const Explore = () => {
                                 <h2>01</h2>
                                 <p>VECTOR DESIGN</p>
                             </div>
-                            <span>Button</span>
+                            <FaHandHoldingUsd style={{ color: 'white', fontSize: '50px', borderRadius: '10px', border: '1px solid white', padding: '10px' }} />
                         </div>
                         <img src={s1} />
                         <div className='inner_data'>
@@ -31,7 +34,7 @@ const Explore = () => {
                                 <h2>02</h2>
                                 <p>BRANDING VECTOR</p>
                             </div>
-                            <span>Button</span>
+                            <FaAccessibleIcon style={{ color: 'white', fontSize: '50px', borderRadius: '10px', border: '1px solid white', padding: '10px' }} />
                         </div>
                         <img src={s2} />
                         <div className='inner_data'>
@@ -49,7 +52,7 @@ const Explore = () => {
                                 <h2>03</h2>
                                 <p>IDENTITY VECTOR</p>
                             </div>
-                            <span>Button</span>
+                            <FaHandshakeAltSlash style={{ color: 'white', fontSize: '50px', borderRadius: '10px', border: '1px solid white', padding: '10px' }} />
                         </div>
                         <img src={s3} />
                         <div className='inner_data'>
