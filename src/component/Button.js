@@ -6,15 +6,5 @@ const Button = ({ text, color, border, margin }) => {
   )
 }
 
-// const btn = {
-//     background: "#e5145b",
-//     color: "#ffffff",
-//     fontSize: "18px",
-//     border: "none",
-//     outline: "none",
-//     padding: "20px",
-//     borderRadius: "10px",
-//     cursor: "pointer",
-// }
 
 export default Button
