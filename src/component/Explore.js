@@ -3,7 +3,7 @@ import s1 from '../img/s1.jpg';
 import s2 from '../img/s2.jpg';
 import s3 from '../img/s3.jpg';
 import { FaHandHoldingUsd } from "react-icons/fa";
-import { FaAccessibleIcon } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 import { FaHandshakeAltSlash } from "react-icons/fa";
 const Explore = () => {
     return (
@@ -34,7 +34,7 @@ const Explore = () => {
                                 <h2>02</h2>
                                 <p>BRANDING VECTOR</p>
                             </div>
-                            <FaAccessibleIcon style={{ color: 'white', fontSize: '50px', borderRadius: '10px', border: '1px solid white', padding: '10px' }} />
+                            <FaClock style={{ color: 'white', fontSize: '50px', borderRadius: '10px', border: '1px solid white', padding: '10px' }} />
                         </div>
                         <img src={s2} />
                         <div className='inner_data'>

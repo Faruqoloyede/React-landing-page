@@ -152,7 +152,7 @@ section {
 
 .top {
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .top_data h2 {
@@ -199,4 +199,31 @@ section {
 .button {
   align-items: center;
   justify-content: center;
+}
+
+.community_wrapper {
+  margin-top: 25px;
+}
+
+.community_details {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4a48671f;
+  padding: 40px 20px;
+  color: white;
+  border: 1px solid #4a4867;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.community_details h3 {
+  font-size: 25px;
+}
+
+.icon {
+  align-items: center;
+}
+
+.icon h2 {
+  margin-left: 10px;
 }
